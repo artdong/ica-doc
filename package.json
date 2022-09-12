@@ -1,0 +1,43 @@
+{
+  "name": "ica-doc",
+  "version": "1.0.0",
+  "description": "convert doc to html",
+  "main": "./bin/doc.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint bin/ lib/ --ext .js --ignore-pattern public --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0",
+    "inquirer": "^6.2.0",
+    "mammoth": "^1.4.21",
+    "pretty": "^2.0.0",
+    "ora": "^3.4.0"
+  },
+  "bin": {
+    "doc": "./bin/doc.js"
+  },
+  "author": "artd",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "pre-commit": "^1.2.2",
+    "uglifyjs-webpack-plugin": "^1.1.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.5"
+  },
+  "keywords": [
+    "cli",
+    "knk",
+    "ica-doc",
+    "文档转换",
+    "doc转html"
+  ]
+}
