@@ -24,8 +24,8 @@
   "bin": {
     "doc": "./bin/doc.js"
   },
-  "author": "artd",
-  "license": "ISC",
+  "author": "artdong",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^6.7.2",
     "pre-commit": "^1.2.2",
@@ -35,9 +35,10 @@
   },
   "keywords": [
     "cli",
-    "knk",
+    "ica",
     "ica-doc",
     "文档转换",
-    "doc转html"
+    "doc转html",
+    "convert doc to html"
   ]
 }
